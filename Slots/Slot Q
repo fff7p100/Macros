@@ -1,0 +1,13 @@
+import time
+
+slots_equipo = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+
+for slot in slots_equipo:
+    
+    keyboard.send_keys(slot)
+    
+    time.sleep(0.01)
+    
+    keyboard.send_keys("q") 
+    
+    time.sleep(0.01)
