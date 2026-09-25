@@ -1,0 +1,116 @@
+import subprocess
+import time
+
+# 1
+keyboard.send_keys("|")
+time.sleep(0.07)
+mouse.click_relative(850, 326, 1)
+time.sleep(0.07)
+keyboard.send_keys("n")
+time.sleep(0.05)
+keyboard.send_keys("e")
+time.sleep(0.05)
+keyboard.send_keys("o")
+time.sleep(0.05)
+
+subprocess.run(["xdotool", "mousemove", "396", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "397", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 2
+mouse.click_relative(854, 326, 1)
+time.sleep(0.07)
+keyboard.send_keys("g")
+time.sleep(0.05)
+keyboard.send_keys("r")
+time.sleep(0.05)
+keyboard.send_keys("a")
+time.sleep(0.05)
+
+subprocess.run(["xdotool", "mousemove", "383", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "466", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 3
+subprocess.run(["xdotool", "mousemove", "844", "725", "mousedown", "1", "sleep", "0.08", "mousemove", "532", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 4
+mouse.click_relative(994, 326, 1)
+time.sleep(0.08)
+keyboard.send_keys("e")
+time.sleep(0.05)
+
+subprocess.run(["xdotool", "mousemove", "393", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "593", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 5
+subprocess.run(["xdotool", "mousemove", "400", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "663", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 6
+subprocess.run(["xdotool", "mousemove", "393", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "720", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 7
+subprocess.run(["xdotool", "mousemove", "404", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "790", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 8
+mouse.click_relative(984, 331, 1)
+time.sleep(0.07)
+mouse.click_relative(933, 326, 1)
+time.sleep(0.07)
+keyboard.send_keys("i")
+time.sleep(0.05)
+keyboard.send_keys("n")
+time.sleep(0.05)
+
+subprocess.run(["xdotool", "mousemove", "395", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "858", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 9
+mouse.click_relative(987, 332, 1)
+time.sleep(0.07)
+mouse.click_relative(922, 336, 1)
+time.sleep(0.07)
+keyboard.send_keys("f")
+time.sleep(0.05)
+keyboard.send_keys("3")
+time.sleep(0.05)
+
+subprocess.run(["xdotool", "mousemove", "397", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "908", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 10
+mouse.click_relative(995, 331, 1)
+time.sleep(0.07)
+mouse.click_relative(972, 332, 1)
+time.sleep(0.07)
+keyboard.send_keys("b")
+time.sleep(0.05)
+keyboard.send_keys("o")
+time.sleep(0.05)
+keyboard.send_keys("w")
+time.sleep(0.05)
+
+subprocess.run(["xdotool", "mousemove", "402", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "978", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+# Limpiar buscador al terminar
+mouse.click_relative(995, 331, 1)
+time.sleep(0.07)
+mouse.click_relative(972, 332, 1)
+time.sleep(0.07)
+keyboard.send_keys("<BackSpace>")
+time.sleep(0.07)
+keyboard.send_keys("<BackSpace>")
+time.sleep(0.07)
+keyboard.send_keys("<BackSpace>")
