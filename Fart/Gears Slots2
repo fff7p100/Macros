@@ -1,0 +1,35 @@
+import subprocess
+import time
+
+
+keyboard.send_keys("|")
+time.sleep(0.01)  
+
+pares_coordenadas = [
+    ((392, 725), (449, 630)),
+    ((452, 725), (516, 630)),
+    ((517, 725), (600, 630)),
+    ((579, 725), (652, 630)),
+    ((642, 725), (723, 630)),
+    ((712, 725), (783, 630)),
+    ((771, 725), (851, 630)),
+    ((842, 725), (908, 630)),
+    ((904, 725), (971, 630)),
+    ((967, 725), (967, 630))
+]
+
+for origen, destino in pares_coordenadas:
+    x_orig, y_orig = origen
+    x_dest, y_dest = destino
+    
+    comando = [
+        "xdotool", 
+        "mousemove", str(x_orig), str(y_orig), 
+        "mousedown", "1", 
+        "sleep", "0.01", 
+        "mousemove", str(x_dest), str(y_dest), 
+        "mouseup", "1"
+    ]
+   
+    subprocess.run(comando)
+    time.sleep(0.01)
