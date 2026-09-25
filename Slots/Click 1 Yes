@@ -1,17 +1,11 @@
 import time
-import pyautogui
 
-# Espera 2 segundos para que te dé tiempo a cambiar a la ventana de Roblox
-print("Colócate en Roblox. La macro empieza en 2 segundos...")
-time.sleep(2)
-
-# 1. Hacer clic en el botón de Ajustes/Configuración arriba a la derecha
-pyautogui.click(1890, 45)
-time.sleep(0.5)
-
-# 2. Hacer clic en la flecha para cambiar la opción
-pyautogui.click(600, 580)
-time.sleep(0.3)
-
-# 3. Hacer clic en el botón "Cerrar"
-pyautogui.click(380, 680)
+for _ in range(500):
+    
+    keyboard.send_keys("1")
+    
+    time.sleep(0.005)
+    
+    mouse.click_relative(0, 0, 1)
+    
+    time.sleep(0.01)
