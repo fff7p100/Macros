@@ -1,0 +1,34 @@
+import time
+import pyautogui
+
+
+pyautogui.PAUSE = 0.02
+
+
+keyboard.send_keys("|")
+time.sleep(0.3)  
+
+W, H = pyautogui.size()
+
+start_x = 0.5 * W - 296
+start_y = H - 328
+
+end_x = 0.5 * W + 292
+end_y = H - 131
+
+a_1 = (end_x - start_x) / 9.0
+a_2 = (end_y - start_y) / 3.0
+
+for i_outer in range(1, 5):
+    y = int(a_2 * (4 - i_outer) + start_y)
+    
+    for i_inner in range(1, 11):
+        x = int(a_1 * (10 - i_inner) + start_x)
+        
+        pyautogui.click(x, y)
+        pyautogui.press('e')
+
+time.sleep(0.2)
+
+
+keyboard.send_keys("|")
