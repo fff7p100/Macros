@@ -1,0 +1,13 @@
+import time
+
+mouse.click_relative(1278, 33, 1)
+time.sleep(0.2)
+
+mouse.click_relative(1019, 521, 1)
+time.sleep(0.1)
+
+mouse.click_relative(1019, 521, 1)
+time.sleep(0.1)
+
+mouse.click_relative(1019, 521, 1)
+time.sleep(0.2)
