@@ -1,0 +1,49 @@
+x   X          0xffffff7p100
+nano ~/.xbindkeysrc
+ nano autoclick.sh
+
+xbindkeys     pkill xbindkeys
+
+3110755182          Spawn block
+561238759          Minecraft tag
+564913728           Blood smoker
+846089351          Remove water
+903319803          Kill blocks
+720541990          Armor Giver
+
+
+4901337104         F3X Giver
+560414641           Btools Giver
+                                                                           
+Key structure:       -23900   40   -150                                           
+Key zone:         -400   -130   1060
+
+Gear id: 
+18474459              paint gear
+236442380           Recycling gear
+4520708092         Periastron white
+49491808             Ragge staff
+77443461             Sword of Light
+125013830           Scroll of Sevenless
+483308034          Overseer sword
+94794833            Capa de inmortales
+81330766             Time watch
+107458461            Noobcaik
+155414424           Terra warrior Staff 
+95951330             Skeleton-Scythe
+88885506            Military Spy Satellite
+159199263           Bo Staff 7000
+126704033           Chupacabras
+59190534             Statue Staff of Stony Justice
+60357972             Flaming Hedgehog Cannon
+228588531            Staff of Eggstra Large Eggs
+49491781               Staff of Celestial Light
+
+Fun id:
+707236458         Another Thumbnail model
+689874448         LPI Drink
+830949945         FoxBomb
+830811931            Cleaver
+ 
+
+
