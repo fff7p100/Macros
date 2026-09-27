@@ -1,0 +1,70 @@
+import time
+
+def copiar_y_pegar(texto):
+    clipboard.fill_clipboard(texto)
+    time.sleep(0.12)
+    keyboard.send_keys("<ctrl>+v")
+    time.sleep(0.12)
+
+keyboard.send_keys("j")
+time.sleep(0.12)
+mouse.click_relative(1202, 418, 1)
+time.sleep(0.12)
+mouse.click_relative(1180, 597, 1)
+time.sleep(0.12)
+mouse.click_relative(746, 441, 1)
+time.sleep(0.12)
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1139, 522, 1)
+time.sleep(0.12)
+keyboard.send_keys("180")
+time.sleep(0.12)
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+
+copiar_y_pegar("-400")
+time.sleep(0.12)
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+
+copiar_y_pegar("-130")
+time.sleep(0.12)
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+
+keyboard.send_keys("1060")
+time.sleep(0.12)
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.12)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.15)
+keyboard.send_keys("2048")
+time.sleep(0.15)
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.15)
+keyboard.send_keys("2048")
+time.sleep(0.15)
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.15)
+keyboard.send_keys("1500")
+time.sleep(0.15)
+
+for _ in range(60):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.04)
