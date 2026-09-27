@@ -22,6 +22,6 @@ time.sleep(0.11)
 mouse.click_relative(1242, 418, 1)
 time.sleep(0.11)
 
-for _ in range(70):
+for _ in range(60):
     mouse.click_relative(1336, 543, 1)
     time.sleep(0.01)
