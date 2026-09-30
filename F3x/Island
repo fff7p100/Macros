@@ -1,0 +1,214 @@
+import time
+
+def copiar_y_pegar(texto):
+    clipboard.fill_clipboard(texto)
+    time.sleep(0.11)
+    keyboard.send_keys("<ctrl>+v")
+    time.sleep(0.11)
+
+    
+keyboard.send_keys("j")
+time.sleep(0.12)
+mouse.click_relative(1202, 418, 1)
+time.sleep(0.12)
+mouse.click_relative(1180, 597, 1)
+time.sleep(0.12)
+mouse.click_relative(746, 441, 1)
+time.sleep(0.12)
+
+
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+
+copiar_y_pegar("-246")
+time.sleep(0.11)
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("119")
+time.sleep(0.11)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+
+copiar_y_pegar("-136")
+time.sleep(0.11)
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.11)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.11) 
+keyboard.send_keys("606")
+time.sleep(0.11)
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.11)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.11)
+keyboard.send_keys("155")
+time.sleep(0.11)
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.11)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.11)
+keyboard.send_keys("500")
+time.sleep(0.11)
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+    
+    
+
+
+ 
+
+def copiar_y_pegar(texto):
+    clipboard.fill_clipboard(texto)
+    time.sleep(0.10)
+    keyboard.send_keys("<ctrl>+v")
+    time.sleep(0.10)
+
+    
+keyboard.send_keys("j")
+time.sleep(0.12)
+mouse.click_relative(1202, 418, 1)
+time.sleep(0.12)
+mouse.click_relative(1180, 597, 1)
+time.sleep(0.12)
+mouse.click_relative(746, 441, 1)
+time.sleep(0.12)
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1139, 522, 1)
+time.sleep(0.12)
+keyboard.send_keys("180")
+time.sleep(0.11)
+
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+
+copiar_y_pegar("-202")
+time.sleep(0.11)
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("35")
+time.sleep(0.11)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+
+copiar_y_pegar("-230")
+time.sleep(0.11)
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.11)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.11) 
+keyboard.send_keys("531")
+time.sleep(0.10)
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.11)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.11)
+keyboard.send_keys("80")
+time.sleep(0.10)
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.11)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.11)
+keyboard.send_keys("200")
+time.sleep(0.10)
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+    
+    
+    
+    
+        
+    
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+
+keyboard.send_keys("38")
+time.sleep(0.12)
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.11)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.11)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.11)
+keyboard.send_keys("2048")
+time.sleep(0.11)
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+    
+    
+
+
+    
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.11)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.11)
+copiar_y_pegar("-691")
+time.sleep(0.11)
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.11)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.11)
+keyboard.send_keys("35")
+time.sleep(0.11)
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.11)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.11)
+copiar_y_pegar("-81")
+time.sleep(0.11)
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+
+
+
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+
+copiar_y_pegar("301")
+time.sleep(0.11)
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)    
