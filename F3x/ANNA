@@ -1,0 +1,627 @@
+import time
+
+def copiar_y_pegar(texto):
+    clipboard.fill_clipboard(texto)
+    time.sleep(0.12)
+    keyboard.send_keys("<ctrl>+v")
+    time.sleep(0.12)
+
+keyboard.send_keys("j")
+time.sleep(0.12)
+mouse.click_relative(746, 441, 1)
+time.sleep(0.12)
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-105.003")
+time.sleep(0.12)
+
+
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-241.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-13.212")
+time.sleep(0.12)
+
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.12)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.12) 
+keyboard.send_keys("13")
+time.sleep(0.12)
+
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+keyboard.send_keys("1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+keyboard.send_keys("2")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03) 
+    
+    
+    
+    
+     
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("0")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-244.155")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-13.212")
+time.sleep(0.12)
+
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.12)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.12) 
+keyboard.send_keys("4")
+time.sleep(0.12)
+
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+keyboard.send_keys("1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+keyboard.send_keys("2")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+    
+    
+    
+    
+
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-75.004")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-245.055")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-13.212")
+time.sleep(0.12)
+
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.12)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.12) 
+keyboard.send_keys("13")
+time.sleep(0.12)
+
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+keyboard.send_keys("1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+keyboard.send_keys("2")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+
+
+
+
+
+
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-90")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-250.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-14.212")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+
+
+
+
+
+
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-59.997")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-253.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-14.212")
+time.sleep(0.12)
+
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+
+
+
+
+
+
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-90")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-256.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-14.212")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+    
+    
+    
+    
+    
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-90")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-261.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-14.212")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+
+
+
+
+
+     
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-59.997")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-264.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-14.212")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+    
+    
+    
+    
+    
+   
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-90")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-267.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-14.212")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+
+
+
+
+
+   
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-105.003")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-272.655")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-14.212")
+time.sleep(0.12)
+
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
+
+
+
+
+
+ 
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("0")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-275.155")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-13.212")
+time.sleep(0.12)
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.12)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.12) 
+keyboard.send_keys("6")
+time.sleep(0.12)
+
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+keyboard.send_keys("1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+keyboard.send_keys("2")
+time.sleep(0.12)
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)     
+    
+    
+    
+    
+    
+ 
+mouse.click_relative(1304, 306, 1)
+time.sleep(0.12)
+mouse.click_relative(1187, 520, 1)
+time.sleep(0.12)
+copiar_y_pegar("-75.004")
+time.sleep(0.12)
+
+     
+mouse.click_relative(1303, 265, 1)
+time.sleep(0.12)
+mouse.click_relative(1144, 517, 1)
+time.sleep(0.12)
+copiar_y_pegar("-276.055")
+time.sleep(0.12)
+
+
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+mouse.click_relative(1184, 519, 1)
+time.sleep(0.12)
+keyboard.send_keys("2053.1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+copiar_y_pegar("-13.212")
+time.sleep(0.12)
+
+
+mouse.click_relative(1337, 267, 1)
+time.sleep(0.12)
+mouse.click_relative(1153, 510, 1)
+time.sleep(0.12) 
+keyboard.send_keys("13")
+time.sleep(0.12)
+
+
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+mouse.click_relative(1198, 525, 1)
+time.sleep(0.12)
+keyboard.send_keys("1")
+time.sleep(0.12)
+
+
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+mouse.click_relative(1237, 522, 1)
+time.sleep(0.12)
+keyboard.send_keys("2")
+time.sleep(0.12)
+
+
+for _ in range(1):
+    mouse.click_relative(1336, 543, 1)
+    time.sleep(0.03)
