@@ -1,22 +1,25 @@
-x   X          0xffffff7p100
+x  X          0xffffff7p100
 nano ~/.xbindkeysrc
  nano autoclick.sh
 
 xbindkeys     pkill xbindkeys
 
+4901337104         F3X Giver
+23153947.1           Fountain
+560414641           Btools Giver
+
 3110755182          Spawn block
 561238759          Minecraft tag
+903319803          Kill blocks
 564913728           Blood smoker
 846089351          Remove water
-903319803          Kill blocks
-720541990          Armor Giver
 
 
-4901337104         F3X Giver
-560414641           Btools Giver
-                                                                           
+                                                                       
 Key structure:       -23900   40   -150                                           
-Key zone:         -400   -130   1060
+Key zone:         -400  1060  -130  
+
+
 
 Gear id: 
 18474459              paint gear
@@ -45,5 +48,3 @@ Fun id:
 830949945         FoxBomb
 830811931            Cleaver
  
-
-
