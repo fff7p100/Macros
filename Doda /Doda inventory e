@@ -1,0 +1,98 @@
+import subprocess
+import time
+
+keyboard.send_keys("|")
+time.sleep(0.1)  
+
+pares_coordenadas = [
+    ((642, 725), (723, 630)),
+    ((712, 725), (783, 630)),
+    ((771, 725), (851, 630)),
+    ((842, 725), (908, 630)),
+]
+
+for origen, destino in pares_coordenadas:
+    x_orig, y_orig = origen
+    x_dest, y_dest = destino
+    
+    subprocess.run(["xdotool", "mousemove", str(x_orig), str(y_orig)])
+    time.sleep(0.0001)
+    subprocess.run(["xdotool", "mousedown", "1"])
+    time.sleep(0.0001)  
+    subprocess.run(["xdotool", "mousemove", str(x_dest), str(y_dest)])
+    time.sleep(0.0001)  
+    subprocess.run(["xdotool", "mouseup", "1"])
+    
+    time.sleep(0.0001)
+    
+    
+    
+    
+mouse.click_relative(519, 390, 1) 
+time.sleep(0.01)
+mouse.click_relative(519, 390, 1) 
+time.sleep(0.01)
+mouse.click_relative(519, 390, 1) 
+time.sleep(0.01)
+mouse.click_relative(519, 390, 1) 
+time.sleep(0.01)
+
+
+
+
+mouse.click_relative(585, 390, 1)
+time.sleep(0.01)
+mouse.click_relative(585, 390, 1)
+time.sleep(0.01) 
+mouse.click_relative(585, 390, 1)
+time.sleep(0.01)
+mouse.click_relative(585, 390, 1)
+time.sleep(0.01)
+  
+
+
+mouse.click_relative(649, 390, 1)
+time.sleep(0.01)
+mouse.click_relative(649, 390, 1)
+time.sleep(0.01) 
+mouse.click_relative(649, 390, 1)
+time.sleep(0.01)
+mouse.click_relative(649, 390, 1)
+time.sleep(0.01)
+ 
+ 
+
+
+mouse.click_relative(715, 389, 1)
+time.sleep(0.01)
+mouse.click_relative(715, 389, 1)
+time.sleep(0.01) 
+mouse.click_relative(715, 389, 1)
+time.sleep(0.01)
+mouse.click_relative(715, 389, 1)
+time.sleep(0.01)
+
+
+mouse.click_relative(778, 390, 1) 
+time.sleep(0.01)
+mouse.click_relative(778, 390, 1) 
+time.sleep(0.01)
+mouse.click_relative(778, 390, 1) 
+time.sleep(0.01)
+mouse.click_relative(778, 390, 1) 
+time.sleep(0.01)
+
+
+mouse.click_relative(683, 341, 1)
+mouse.click_relative(683, 341, 1)
+mouse.click_relative(683, 341, 1)
+mouse.click_relative(683, 341, 1)
+mouse.click_relative(683, 341, 1)
+
+
+keyboard.send_keys("|")
+time.sleep(0.1)
+
+
+
+
