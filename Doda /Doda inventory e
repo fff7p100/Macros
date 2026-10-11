@@ -11,6 +11,7 @@ pares_coordenadas = [
     ((842, 725), (908, 630)),
 ]
 
+
 for origen, destino in pares_coordenadas:
     x_orig, y_orig = origen
     x_dest, y_dest = destino
@@ -26,8 +27,7 @@ for origen, destino in pares_coordenadas:
     time.sleep(0.0001)
     
     
-    
-    
+        
 mouse.click_relative(519, 390, 1) 
 time.sleep(0.01)
 mouse.click_relative(519, 390, 1) 
@@ -51,6 +51,7 @@ time.sleep(0.01)
   
 
 
+
 mouse.click_relative(649, 390, 1)
 time.sleep(0.01)
 mouse.click_relative(649, 390, 1)
@@ -73,6 +74,8 @@ mouse.click_relative(715, 389, 1)
 time.sleep(0.01)
 
 
+
+
 mouse.click_relative(778, 390, 1) 
 time.sleep(0.01)
 mouse.click_relative(778, 390, 1) 
@@ -81,6 +84,8 @@ mouse.click_relative(778, 390, 1)
 time.sleep(0.01)
 mouse.click_relative(778, 390, 1) 
 time.sleep(0.01)
+
+
 
 
 mouse.click_relative(683, 341, 1)
