@@ -1,0 +1,176 @@
+import subprocess
+import time
+
+# 1
+mouse.click_relative(689, 71, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+
+
+keyboard.send_keys("d")
+time.sleep(0.06)
+keyboard.send_keys("i")
+time.sleep(0.06)
+keyboard.send_keys("a")
+time.sleep(0.06)
+
+
+mouse.click_relative(942, 379, 1)
+time.sleep(0.08)
+
+
+
+# 2
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+
+
+keyboard.send_keys("c")
+time.sleep(0.05)
+keyboard.send_keys("o")
+time.sleep(0.05)
+keyboard.send_keys("i")
+time.sleep(0.06)
+keyboard.send_keys("l")
+time.sleep(0.06)
+
+
+mouse.click_relative(1183, 251, 1)
+time.sleep(0.08)
+
+
+
+
+# 3
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+
+
+keyboard.send_keys("d")
+time.sleep(0.05)
+keyboard.send_keys("r")
+time.sleep(0.05)
+keyboard.send_keys("a")
+time.sleep(0.06)
+keyboard.send_keys("g")
+time.sleep(0.06)
+
+
+mouse.click_relative(1178, 375, 1)
+time.sleep(0.08)
+
+
+
+
+# 3
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+
+
+keyboard.send_keys("i")
+time.sleep(0.05)
+keyboard.send_keys("n")
+time.sleep(0.05)
+keyboard.send_keys("v")
+time.sleep(0.06)
+keyboard.send_keys("i")
+time.sleep(0.06)
+
+
+mouse.click_relative(935, 247, 1)
+time.sleep(0.08)
+
+
+
+
+#N/A
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+
+
+keyboard.send_keys("t")
+time.sleep(0.06)
+keyboard.send_keys("e")
+time.sleep(0.06)
+keyboard.send_keys("r")
+time.sleep(0.06)
+keyboard.send_keys("r")
+time.sleep(0.06)
+keyboard.send_keys("a")
+time.sleep(0.06)
+
+
+mouse.click_relative(940, 242, 1)
+time.sleep(0.08)
+
+
+
+#9/0 
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+
+
+keyboard.send_keys("s")
+time.sleep(0.07)
+keyboard.send_keys("c")
+time.sleep(0.06)
+keyboard.send_keys("r")
+time.sleep(0.06)
+keyboard.send_keys("o")
+time.sleep(0.06)
+keyboard.send_keys("l")
+time.sleep(0.06)
+keyboard.send_keys("l")
+time.sleep(0.06)
+
+
+mouse.click_relative(942, 253, 1)
+time.sleep(0.05)
+mouse.click_relative(942, 253, 1)
+time.sleep(0.05)
+mouse.click_relative(942, 253, 1)
+time.sleep(0.05)
+
+
+
+
+
+
+# inventory
+mouse.click_relative(689, 71, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+mouse.click_relative(804, 167, 1)
+time.sleep(0.08)
+
+
+keyboard.send_keys("o")
+time.sleep(0.05)
+keyboard.send_keys("v")
+time.sleep(0.06)
+keyboard.send_keys("e")
+time.sleep(0.06)
+keyboard.send_keys("r")
+time.sleep(0.06)
+keyboard.send_keys("s")
+time.sleep(0.06)
+keyboard.send_keys("e")
+time.sleep(0.06)
+
+
+ 
+
