@@ -1,6 +1,6 @@
 import time
 
-slots_equipo = ["5", "6", "7", "8"]
+slots_equipo = ["6", "7", "8"]
 
 for slot in slots_equipo:
     
@@ -11,7 +11,6 @@ for slot in slots_equipo:
     keyboard.send_keys("q") 
     
     time.sleep(0.01)
-    
         
 mouse.click_relative(683, 341, 1)
    
@@ -39,4 +38,3 @@ for slot in slots_equipo:
     mouse.click_relative(680, 324, 1)  
     
     time.sleep(0.01)
-     
