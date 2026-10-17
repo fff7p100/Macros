@@ -7,11 +7,13 @@ time.sleep(0.07)
 mouse.click_relative(850, 326, 1)
 time.sleep(0.07)
 keyboard.send_keys("d")
-time.sleep(0.05)
+time.sleep(0.06)
 keyboard.send_keys("i")
-time.sleep(0.05)
+time.sleep(0.06)
 keyboard.send_keys("a")
-time.sleep(0.05)
+time.sleep(0.06)
+keyboard.send_keys("b")
+time.sleep(0.06)
 
 subprocess.run(["xdotool", "mousemove", "396", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "397", "725", "mouseup", "1"])
 time.sleep(0.07)
@@ -49,6 +51,21 @@ time.sleep(0.07)
 # 4
 mouse.click_relative(994, 326, 1)
 time.sleep(0.08)
+keyboard.send_keys("v")
+time.sleep(0.04)
+keyboard.send_keys("a")
+time.sleep(0.04)
+keyboard.send_keys("c")
+time.sleep(0.04)
+
+
+subprocess.run(["xdotool", "mousemove", "393", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "593", "725", "mouseup", "1"])
+time.sleep(0.07)
+
+
+# 5
+mouse.click_relative(994, 326, 1)
+time.sleep(0.08)
 keyboard.send_keys("i")
 time.sleep(0.04)
 keyboard.send_keys("n")
@@ -67,11 +84,11 @@ keyboard.send_keys("l")
 time.sleep(0.04)
 
 
-subprocess.run(["xdotool", "mousemove", "393", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "593", "725", "mouseup", "1"])
+subprocess.run(["xdotool", "mousemove", "400", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "663", "725", "mouseup", "1"])
 time.sleep(0.07)
 
 
-# 5
+# 6
 mouse.click_relative(994, 326, 1)
 time.sleep(0.08)
 keyboard.send_keys("t")
@@ -83,11 +100,6 @@ time.sleep(0.04)
 keyboard.send_keys("a")
 time.sleep(0.04)
 
-subprocess.run(["xdotool", "mousemove", "400", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "663", "725", "mouseup", "1"])
-time.sleep(0.07)
-
-
-# 6
 subprocess.run(["xdotool", "mousemove", "393", "430", "mousedown", "1", "sleep", "0.08", "mousemove", "720", "725", "mouseup", "1"])
 time.sleep(0.07)
 
