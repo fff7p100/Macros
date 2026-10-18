@@ -14,17 +14,11 @@ mouse.click_relative(1180, 597, 1)
 time.sleep(0.12)
 mouse.click_relative(746, 441, 1)
 time.sleep(0.12)
-mouse.click_relative(1304, 306, 1)
-time.sleep(0.12)
-mouse.click_relative(1139, 522, 1)
-time.sleep(0.12)
-keyboard.send_keys("180")
-time.sleep(0.12)
+
 mouse.click_relative(1303, 265, 1)
 time.sleep(0.12)
 mouse.click_relative(1144, 517, 1)
 time.sleep(0.12)
-
 copiar_y_pegar("-23900")
 time.sleep(0.12)
 
@@ -34,13 +28,19 @@ mouse.click_relative(1184, 519, 1)
 time.sleep(0.12)
 keyboard.send_keys("40")
 time.sleep(0.12)
-mouse.click_relative(1240, 518, 1)
-time.sleep(0.12)
-mouse.click_relative(1240, 518, 1)
-time.sleep(0.12)
 
+
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
+mouse.click_relative(1240, 518, 1)
+time.sleep(0.12)
 copiar_y_pegar("-150")
 time.sleep(0.12)
+
+mouse.click_relative(1337, 369, 1)
+time.sleep(0.4) 
+mouse.click_relative(1227, 419, 1) 
+time.sleep(0.4)
 
 mouse.click_relative(1337, 267, 1)
 time.sleep(0.12)
@@ -63,12 +63,13 @@ time.sleep(0.12)
 keyboard.send_keys("2048")
 time.sleep(0.12)
 
+
 mouse.click_relative(1304, 371, 1)
-time.sleep(0.8)
+time.sleep(0.4)
 mouse.click_relative(1242, 418, 1)
-time.sleep(0.8)
+time.sleep(0.4)
 
 
-for _ in range(80):
+for _ in range(100):
     mouse.click_relative(1336, 543, 1)
-    time.sleep(0.03)
+    time.sleep(0.01)
