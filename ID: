@@ -1,11 +1,11 @@
 x  X          0xffffff7p100
-nano ~/.xbindkeysrc
- nano autoclick.sh
+nano ~/.xbindkeysrc      nano ~/tecla_1.py  
+ nano autoclick.sh          python3 ~/tecla_1.py
 
-xbindkeys     pkill xbindkeys
+xbindkeys    pkill xbindkeys 
 
-4901337104         F3X Giver
 23153947.1           Fountain
+4901337104         F3X Giver
 560414641           Btools Giver
 
 3110755182          Spawn block
@@ -17,19 +17,19 @@ xbindkeys     pkill xbindkeys
 
                                                                        
 Key structure:       -23900   40   -150                                           
-Key zone:         -400  1060  -130  
+Key zone:        
 
 
 
 Gear id: 
 18474459              paint gear
-236442380           Recycling gear
+236442380           Gear Recycler
 4520708092         Periastron white
 49491808             Ragge staff
 77443461             Sword of Light
 125013830           Scroll of Sevenless
 483308034          Overseer sword
-94794833            Capa de inmortales
+94794833             Cloak of the Undying/capa murcielago
 81330766             Time watch
 107458461            Noobcaik
 155414424           Terra warrior Staff 
@@ -41,10 +41,12 @@ Gear id:
 60357972             Flaming Hedgehog Cannon
 228588531            Staff of Eggstra Large Eggs
 49491781               Staff of Celestial Light
+85879465              Torso Cannon
+
 
 Fun id:
 707236458         Another Thumbnail model
 689874448         LPI Drink
 830949945         FoxBomb
 830811931            Cleaver
- 
+
