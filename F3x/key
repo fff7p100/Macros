@@ -6,6 +6,7 @@ def copiar_y_pegar(texto):
     keyboard.send_keys("<ctrl>+v")
     time.sleep(0.12)
 
+
 keyboard.send_keys("j")
 time.sleep(0.12)
 mouse.click_relative(1202, 418, 1)
@@ -14,11 +15,13 @@ mouse.click_relative(1180, 597, 1)
 time.sleep(0.12)
 mouse.click_relative(746, 441, 1)
 time.sleep(0.12)
+
+
 mouse.click_relative(1304, 306, 1)
 time.sleep(0.12)
 mouse.click_relative(1139, 522, 1)
 time.sleep(0.12)
-keyboard.send_keys("180")
+keyboard.send_keys("-131")
 time.sleep(0.12)
 mouse.click_relative(1303, 265, 1)
 time.sleep(0.12)
@@ -44,6 +47,12 @@ time.sleep(0.12)
 keyboard.send_keys("1060")
 time.sleep(0.12)
 
+mouse.click_relative(1337, 369, 1)
+time.sleep(0.4) 
+mouse.click_relative(1227, 419, 1) 
+time.sleep(0.4)
+
+
 mouse.click_relative(1337, 267, 1)
 time.sleep(0.12)
 mouse.click_relative(1153, 510, 1)
@@ -65,6 +74,6 @@ time.sleep(0.15)
 keyboard.send_keys("1500")
 time.sleep(0.15)
 
-for _ in range(60):
+for _ in range(10):
     mouse.click_relative(1336, 543, 1)
     time.sleep(0.04)
