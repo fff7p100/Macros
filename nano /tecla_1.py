@@ -2,6 +2,11 @@ nano ~/tecla_1.py
 python3 ~/tecla_1.py
 
 
+
+
+
+
+
 from pynput import keyboard
 import time
 
