@@ -35,7 +35,7 @@ def on_press(key):
     except AttributeError:
         pass
 
-print("Script activo. Presiona 1 en cualquier lado (Ctrl+C para salir).")
+print("Activo. Tecla 1  (Ctrl+C para salir).")
 with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
 
