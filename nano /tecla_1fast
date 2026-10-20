@@ -24,6 +24,6 @@ def on_press(key):
     except AttributeError:
         pass
 
-print("Script activo (Modo Ultra Rápido). Presiona 1 (Ctrl+C para salir).")
+print("Activo (bi2macro fast). tecla 1 (Ctrl+C para salir).")
 with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
