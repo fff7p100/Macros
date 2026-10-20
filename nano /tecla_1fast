@@ -13,12 +13,12 @@ def on_press(key):
         if hasattr(key, 'char') and key.char == '1':
             bloqueo = True
 
-            # Ejecución ultra rápida sin pausa entre espacios
+           
             for _ in range(2):
                 controller.press(' ')
                 controller.release(' ')
 
-            # Breve pausa de seguridad casi imperceptible
+           
             time.sleep(0.01)
             bloqueo = False
     except AttributeError:
