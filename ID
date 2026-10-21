@@ -1,4 +1,4 @@
-x  X          0xffffff7p100
+x  X          0xffffff7p100   Y -500 limit dead
 nano ~/.xbindkeysrc      nano ~/tecla_1.py  
  nano autoclick.sh          python3 ~/tecla_1.py
 
