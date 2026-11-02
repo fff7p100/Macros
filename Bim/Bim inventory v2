@@ -1,0 +1,76 @@
+import subprocess
+import time
+
+keyboard.send_keys("º")
+time.sleep(0.1)  
+
+pares_coordenadas = [
+    ((980, 1050),  (996, 900)),
+    ((1057, 1050), (1051, 900)),
+    ((1119, 1050), (1123, 900)),
+]
+
+
+for origen, destino in pares_coordenadas:
+    x_orig, y_orig = origen
+    x_dest, y_dest = destino
+    
+    subprocess.run(["xdotool", "mousemove", str(x_orig), str(y_orig)])
+    time.sleep(0.001)
+    subprocess.run(["xdotool", "mousedown", "1"])
+    time.sleep(0.001)  
+    subprocess.run(["xdotool", "mousemove", str(x_dest), str(y_dest)])
+    time.sleep(0.001)  
+    subprocess.run(["xdotool", "mouseup", "1"])
+    time.sleep(0.001)
+
+
+mouse.click_relative(994, 765, 1)
+time.sleep(0.01)
+mouse.click_relative(994, 765, 1)
+time.sleep(0.01)
+mouse.click_relative(994, 765, 1)
+time.sleep(0.01)
+mouse.click_relative(994, 765, 1)
+time.sleep(0.01)
+
+
+
+
+
+
+mouse.click_relative(1059, 761, 1)
+time.sleep(0.01)
+mouse.click_relative(1059, 761, 1)
+time.sleep(0.01)
+mouse.click_relative(1059, 761, 1)
+time.sleep(0.01)
+mouse.click_relative(1059, 761, 1)
+time.sleep(0.01)
+
+
+
+mouse.click_relative(1120, 762, 1) 
+time.sleep(0.01)
+mouse.click_relative(1120, 762, 1) 
+time.sleep(0.01)
+mouse.click_relative(1120, 762, 1) 
+time.sleep(0.01)
+mouse.click_relative(1120, 762, 1) 
+time.sleep(0.01)
+mouse.click_relative(1120, 762, 1) 
+time.sleep(0.01)
+
+
+
+mouse.click_relative(955, 481, 1)
+mouse.click_relative(955, 481, 1)
+mouse.click_relative(955, 481, 1)
+mouse.click_relative(955, 481, 1)
+mouse.click_relative(955, 481, 1)
+mouse.click_relative(955, 481, 1)
+
+
+
+keyboard.send_keys("º")
+time.sleep(0.1)  
