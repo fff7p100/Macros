@@ -1,7 +1,6 @@
 nano ~/tecla_1.py
 python3 ~/tecla_1.py
 
-
 DOWNLOAD PYTHON FOR LINUX
 
 
@@ -9,7 +8,6 @@ DOWNLOAD PYTHON FOR LINUX
 
 from pynput import keyboard
 import time
-
 
 controller = keyboard.Controller()
 bloqueo = False
