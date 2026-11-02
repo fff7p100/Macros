@@ -2,7 +2,7 @@ nano ~/tecla_1.py
 python3 ~/tecla_1.py
 
 
-
+DOWNLOAD PYTHON FOR LINUX
 
 
 
