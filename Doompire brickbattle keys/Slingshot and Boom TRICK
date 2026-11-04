@@ -1,0 +1,5 @@
+
+keyboard.send_keys("7")
+
+
+mouse.click_relative(0, 0, 1)
