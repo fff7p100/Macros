@@ -1,0 +1,14 @@
+{
+  "fflags": {
+    "FFlagHandleAltEnterFullscreenManually": false,
+    "FIntDebugForceMSAASamples": 1,
+    "DFFlagTextureQualityOverrideEnabled": true,
+    "DFIntTextureQualityOverride": 0,
+    "DFIntDebugFRMQualityLevelOverride": 1,
+    "FFlagDebugSkyGray": true,
+    "FIntFRMMinGrassDistance": 0,
+    "FIntFRMMaxGrassDistance": 0,
+    "FIntGrassMovementReducedMotionFactor": 0,
+    "DFFlagDisableDPIScale": true
+  }
+}
